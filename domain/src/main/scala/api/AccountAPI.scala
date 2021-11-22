@@ -5,6 +5,6 @@ import model.Account
 
 class AccountAPI {
   def createAccount(name: String): Account = {
-    new Account(name)
+    Account(name)
   }
 }
